@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./reset.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <img class="img-three" src="./images/illustration-box-desktop.svg" />
+  <main>
+    <div class="images-content">
+      <img class="img-one" src="./images/bg-pattern-desktop.svg" />
+      <img class="img-two" src="./images/illustration-woman-online-desktop.svg" />
+
+      <img class="img-one-mobile" src="./images/bg-pattern-mobile.svg" />
+      <img class="img-two-mobile" src="./images/illustration-woman-online-mobile.svg" />
+    </div>
+    <div class="accordion-content">
+      <h1>FAQ</h1>
+      <div class="tabs">
+        <div class="tab">
+          <input id="item1" name="item1" type="checkbox" />
+          <label for="item1">
+            How many team members can I invite?
+            <img src="./images/icon-arrow-down.svg" />
+          </label>
+          <div class="tab-content">
+            You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.
+          </div>
+        </div>
+    
+        <div class="tab">
+          <input id="item2" name="item2" type="checkbox" />
+          <label for="item2">
+            What is the maximum file upload size?
+            <img src="./images/icon-arrow-down.svg" />
+          </label>
+          <div class="tab-content">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </div>
+        </div>
+    
+        <div class="tab">
+          <input id="item3" name="item3" type="checkbox" />
+          <label for="item3">
+            How do I reset my password?
+            <img src="./images/icon-arrow-down.svg" />
+          </label>
+          <div class="tab-content">
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+          </div>
+        </div>
+    
+        <div class="tab">
+          <input id="item4" name="item4" type="checkbox" />
+          <label for="item4">
+            Can I cancel my subscription?
+            <img src="./images/icon-arrow-down.svg" />
+          </label>
+          <div class="tab-content">
+            Yes! Send us a message and we’ll process your request no questions asked.
+          </div>
+        </div>
+    
+        <div class="tab">
+          <input id="item5" name="item5" type="checkbox" />
+          <label for="item5">
+            Do you provide additional support?
+            <img src="./images/icon-arrow-down.svg" />
+          </label>
+          <div class="tab-content">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+</body>
+</html>
